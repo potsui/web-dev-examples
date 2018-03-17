@@ -46,13 +46,13 @@ How can you style them differently? You can do so by labelling them by with an *
 Then you can style them like so:
 ```css
 #red-text {
-	color: red;
+  color: red;
 }
 #blue-text {
-	color: blue;
+  color: blue;
 }
 #yellow-text {
-	color: yellow;
+  color: yellow;
 }
 ```
 What if you want to make only the red and blue text bigger? You could add them individually, but that would become a pain for many elements. Instead, you can add a **class** to them, which groups them together in a category. You can use the same class for multiple elements that you want to have the same property. It's like calling someone (or a group of people) by some thing they have in common, like "hey, all people who are graphic designers!"
@@ -68,7 +68,7 @@ Building on our current example,
 Then you can style them like so:
 ```css
 .bigger-text {
-	font-size: 16px;
+  font-size: 16px;
 }
 ```
 
